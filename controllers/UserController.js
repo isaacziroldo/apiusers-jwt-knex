@@ -36,13 +36,13 @@ class UserController {
         let id = req.params.id
 
         let result = await user.findById(id)
-       if(result == undefined){
+        if(result == undefined){
             res.status(404)
             res.json({})
-       }else{
-           res.status(200)
-           res.json(result)
-       }
+        }else{
+            res.status(200)
+            res.json(result)
+        }
     }
 }
 

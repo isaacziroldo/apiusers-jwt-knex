@@ -2,9 +2,9 @@ var knex = require('knex')({
     client: 'postgres',
     connection: {
       host : 'localhost',
-      user : 'techdev',
+      user : 'tekdreher',
       password : 'ilfr741852',
-      database : 'apiusers'
+      database : 'apiusersjwt'
     }
   });
 
